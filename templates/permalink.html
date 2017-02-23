@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="/blog">Home</a>
+|
+<a href="/blog/newpost">new post</a>
+<div class="art"><br>
+<div class ="art-title">{{key.title}}</div>
+<pre class ="art-body">{{key.art}}</pre>
+</div>
+
+{% endblock %}
